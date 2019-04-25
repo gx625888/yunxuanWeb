@@ -1,0 +1,72 @@
+/*  14  - Footer
+----------------------------------------------*/
+footer{
+    background-color: #0d1218;
+    color: #fff;
+    padding: 42px 0px;
+	position: relative;
+}
+footer p{
+    color: #fff;
+    margin: 0px;
+    padding: 6px 0px;
+}
+footer p a{
+	font-weight: 700;
+	color: #fff;
+}
+footer p a:hover, footer p a:focus{
+	color: #fff;
+}
+footer ul{
+    float: right;
+    margin: 0px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+footer ul li a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    color: #252525;
+    height: 36px;
+    width: 36px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 100%;
+    text-align: center;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+footer ul li a:hover, footer ul li a:focus{
+    background-color: #00BFFF;
+    color: #fff;
+}
+.scroll-top{
+        position: absolute;
+    right: 50%;
+    top: 0;
+    -webkit-transform: translateX(50%) translateY(-50%) rotate(45deg);
+    transform: translateX(50%) translateY(-50%) rotate(45deg);
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    color: #fff;
+    height: 36px;
+    width: 36px;
+    background-color: #0d1218;
+    text-align: center;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+.scroll-top i{
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.scroll-top:hover,.scroll-top:focus{
+    background-color: #00BFFF;
+    color: #0d1218;
+}
