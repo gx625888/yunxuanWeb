@@ -1,6 +1,6 @@
 //首页-联系我们
-$('.telphone_data').html("+86 13670187895");
-$('.email_data').html("88003635@qq.com");
+$('.telphone_data').html("+86 15251821835");
+$('.email_data').html("694637652@qq.com");
 $('.address_data').html("深圳市南山区高新区南区粤兴一道8号 香港城市大学产学研大楼2楼");
 //通用配置
 $('.beianbianhao').html("© 2019 yuxuan Technology Limited.     |    粤ICP备19013413号");
