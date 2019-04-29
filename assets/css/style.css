@@ -1496,4 +1496,18 @@ footer ul li a:hover, footer ul li a:focus{
 	height: 337px;
 }
 
+/**
+ * 设置轮播图的大小自适应
+ */
+.carousel .item {
+  height: 60vh;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 60vh;
+}
+
 /*-------------Thank You----------------*/

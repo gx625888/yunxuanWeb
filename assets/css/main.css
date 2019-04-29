@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-text-stroke-width: 0px;
+    -moz-text-stroke-width: 0px;
+    -o-text-stroke-width: 0px;
+    -ms-text-stroke-width: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    font-family: "PingFangSC-Regular", "Microsoft YaHei"
+}
+body {
+    font-family: "PingFangSC-Regular", "Microsoft Yahei", arial, \5b8b\4f53,
+        "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    background-color: #fff;
+    font-size: 12px;
+    color: #000;
+}
+a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    /* blr: expression(this.onFocus=this.blur()); */
+}
+input,
+select,
+textarea {
+    vertical-align: middle;
+    width: auto;
+    outline: none;
+    border: 0;
+}
+select {
+    appearance: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+    outline: none;
+}
+
+div,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: 0;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.wx-code{
+    display: none;
+    position: absolute;
+    top: -150px;
+    left: 50%;
+    margin-left: 10px;
+    width: 150px;
+	opacity: 1;
+}
+.weixin{
+    position: relative;
+}
+.weixin:hover > .wx-code{
+    display: block;
+}
+
+/*清除浮动代码*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+
+.service {
+    position: relative;
+}
+.service > .wx-code {
+    top: 0;
+}
+.service:hover > .wx-code {
+    display: block;
+}
